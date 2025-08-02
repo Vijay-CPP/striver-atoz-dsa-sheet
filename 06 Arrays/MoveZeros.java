@@ -19,6 +19,7 @@ class Solution {
 
         while (right < n) {
             if (nums[right] != 0) {
+                // Swap non-zero element with the left pointer
                 int temp = nums[left];
                 nums[left] = nums[right];
                 nums[right] = temp;

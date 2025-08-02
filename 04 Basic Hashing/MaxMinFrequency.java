@@ -27,6 +27,24 @@ public class MaxMinFrequency {
             }
         }
 
+        // for(Integer key : frequencyMap.keySet()){
+        //     if(frequencyMap.get(key) == maxFreq){
+        //         maxFreqElements.add(key);
+        //     }
+        //     if(frequencyMap.get(key) == minFreq){
+        //         minFreqElements.add(key);
+        //     }
+        // }
+
+        // frequencyMap.forEach((key, value) -> {
+        //     if (value == maxFreq) {
+        //         maxFreqElements.add(key);
+        //     }
+        //     if (value == minFreq) {
+        //         minFreqElements.add(key);
+        //     }
+        // });
+
         // Step 4: Print results
         System.out.println("Frequency Map: " + frequencyMap);
         System.out.println("Max frequency: " + maxFreq);

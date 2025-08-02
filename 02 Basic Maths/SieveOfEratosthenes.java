@@ -17,6 +17,7 @@ class SieveOfEratosthenes {
         for (int p = 2; p * p <= n; p++) {
             if (isPrime[p]) {
                 // Update all multiples of p as not prime
+                // any number less than p×p that is a multiple of p will have already been marked by smaller primes so next loop starts from p*p
                 for (int i = p * p; i <= n; i += p) {
                     isPrime[i] = false;
                 }

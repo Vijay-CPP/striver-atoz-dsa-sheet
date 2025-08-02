@@ -1,8 +1,9 @@
+
 //import java.lang.*;
-import java.util.*; 
+import java.util.*;
 
 class CountFrequency {
-    public static void main(String arg[]){
+    public static void main(String arg[]) {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter the number of elements: ");

@@ -41,9 +41,7 @@ class MergeSort {
     public static void main(String[] args) {
         int[] arr = { 8, 3, 5, 4, 7, 6, 1, 2 };
         MergeSort sorter = new MergeSort();
-        sorter.mergeSort(0, 
-        
-        arr.length - 1, arr);
+        sorter.mergeSort(0, arr.length - 1, arr);
 
         for (int num : arr) {
             System.out.print(num + " ");

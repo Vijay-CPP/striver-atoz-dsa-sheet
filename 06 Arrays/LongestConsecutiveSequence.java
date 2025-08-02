@@ -61,6 +61,8 @@ class Solution2 {
         int res = 0;
 
         for (int ele : set) {
+            // When iterating over each element ele in the set, the code only starts counting a consecutive sequence if ele - 1 is NOT in the set.
+            // This means the algorithm only begins counting at the start of a sequence.
             if (!set.contains(ele - 1)) {
                 int count = 1;
                 int currNum = ele;
